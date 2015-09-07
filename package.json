@@ -16,5 +16,8 @@
     "url": "https://github.com/keesey/tmkeesey.net/issues"
   },
   "homepage": "http://tmkeesey.net/",
-  "private": true	
+  "private": true,
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  }
 }
