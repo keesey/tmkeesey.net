@@ -1,0 +1,20 @@
+{
+  "name": "tmkeesey.net",
+  "version": "0.0.0",
+  "description": "Personal website of Timothy Michael Keesey",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keesey/tmkeesey.net"
+  },
+  "author": "T. Michael Keesey <keesey@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/keesey/tmkeesey.net/issues"
+  },
+  "homepage": "http://tmkeesey.net/",
+  "private": true	
+}
