@@ -1,0 +1,245 @@
+{
+  "person": {
+    "name": {
+      "family": "Keesey",
+      "given": "T. Michael"
+    },
+    "tagline": "Technical Consultant and Developer — Web Applications",
+    "website": "http://tmkeesey.net/",
+    "email": "keesey@gmail.com",
+    "address": {
+      "locality": "Los Angeles",
+      "region": "California"
+    }
+  },
+  "objective": "Engineering and developing interactive applications, particularly projects involving frameworks, dynamic animation, complex behaviors, data modeling and visualization, and/or new technologies.",
+  "skills": {
+    "Languages": ["JavaScript", "TypeScript", "ActionScript", "XML", "HTML5", "CSS", "Python", "SQL", "Java", "PHP", "C++", "Perl", "PL/pgSQL"],
+    "Frameworks and Libraries": ["Angular", "Knockout", "jQuery", "Jasmine", "Flex", "Django", ".NET", "d3", "Node"],
+    "Dev Tools": ["Git", "Mercurial", "npm", "Bower", "Gulp", "Grunt", "JIRA", "Mantis", "Stash", "Bamboo", "Subversion"],
+    "Databases": ["Postgres", "SQL Server", "MySQL"],
+    "Media Tools": ["Photoshop", "Flash", "Illustrator"],
+    "Methodologies": ["Agile", "Scrum"],
+    "Additional Skills": ["Animation", "Biological Nomenclature", "Education", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
+  },
+  "experience": [
+    {
+      "title": "Senior Web Developer",
+      "years": [2011, "present"],
+      "organization": "Wells Fargo &amp; Company",
+      "location": "Santa Monica, California",
+      "responsibilities": [
+        "Develop web applications for internal usage by Capital Finance.",
+        "Review code and assist management of overseas team.",
+        "Evaluate technical solutions and workflow methodologies.",
+        "Work with business analysts to formulate development goals."
+      ]
+    },
+    {
+      "title": "Freelance Developer/Consultant",
+      "years": [2001, "present (non-continuously)"],
+      "location": "Los Angeles County, California",
+      "responsibilities": [
+        "Develop websites and other interactive media.",
+        "Act as technical lead, interfacing with clients and other team members.",
+        "Architect project structure and document functional and technical specifications."
+      ]
+    },
+    {
+      "title": "Director of Technology",
+      "years": [2006, 2008],
+      "organization": "Exopolis",
+      "location": "Los Angeles, California",
+      "responsibilities": [
+        "Reorganized development workflow, implementing code frameworks, version control, QA, and documentation processes.",
+        "Oversaw hiring of employees, part-time and full-time.",
+        "Acted as technical lead, developer, and information architect."
+      ]
+    },
+    {
+        "title": "Paleo Technician",
+        "year": 2004,
+        "organization": "Wyoming Dinosaur Center",
+        "location": "Thermopolis, Wyoming",
+        "responsibilities": [
+          "Led customers on fossil digs and museum and site tours.",
+          "Worked on museum exhibits, including display design.",
+          "Engaged in fossil preparation and molding/casting."
+        ]
+    },
+    {
+      "title": "Technical Director",
+      "years": [2001, 2003],
+      "organization": "Media Revolution",
+      "location": "Santa Monica/Culver City, California"
+    },
+    {
+      "title": "Flash Developer",
+      "years": [2000, 2001],
+      "organization": "Distant Corners Entertainment Group",
+      "location": "Los Angeles, California"
+    },
+    {
+      "title": "Artist",
+      "years": [1999, 2000],
+      "organization": "Vir2l Studios/ZeniMax Media",
+      "location": "Rockville, Maryland/Culver City, California"
+    },
+    {
+      "title": "Animation Captain/Programming Counselor",
+      "years": [1995, 1998],
+      "organization": "TIC Computer Camp",
+      "location": "Washington, D.C."
+    }
+  ],
+  "samples": [
+    {
+      "language": "TypeScript",
+      "project": {
+        "name": "Haeckel",
+        "url": "https://github.com/keesey/Haeckel/"
+      },
+      "sample": {
+        "name": "Haeckel.DAGSolver",
+        "url": "https://github.com/keesey/Haeckel/blob/master/src/lib/solvers/DAGSolver.ts"
+      }
+    },
+    {
+      "language": "Python",
+      "project": {
+        "name": "PyMathema",
+        "url": "https://bitbucket.org/keesey/pymathema/"
+      },
+      "sample": {
+        "name": "pymathema.evaluation",
+        "url": "https://bitbucket.org/keesey/pymathema/src/be12d64fcf4c/src/pymathema/evaluation.py"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "PhyloPic",
+      "type": "Website",
+      "url": "http://phylopic.org/",
+      "description": "<span class='title'>PhyloPic</span> is a website with freely reusable silhouette images of animals, plants, and other life forms. Images can be searched for taxonomically, so that close approximations can be found for unillustrated groups. A public API is provided (and used by the site itself).",
+      "components": [
+        {
+          "name": "Website",
+          "url": "http://phylopic.org/"
+        },
+        {
+          "name": "Source Code",
+          "url": "http://phylopic.org/repository/"
+        },
+        {
+          "name": "API Documentation",
+          "url": "http://phylopic.org/api/"
+        }
+      ],
+      "technologies": ["Knockout", "jQuery", "TypeScript", "HTML", "CSS", "SVG", "Django", "Python", "ImageMagick", "Postgres", "pl/pgSQL"]
+    },
+    {
+      "name": "Names on Nodes",
+      "type": "Mathematical Methodology/Rich Internet Application",
+      "url": "http://namesonnodes.org/",
+      "description": "<span class='title'>Names on Nodes</span> is a project with the goal of automating biological nomenclature. This involves two core aspects:<ol><li>The storage of scientific names and their definitions as MathML.</li><li>The automated application of names to scientific hypotheses.</li></ol>",
+      "components": [
+        {
+          "name": "Interactive Application",
+          "url": "http://namesonnodes.org/app/"
+        },
+        {
+          "name": "Source Code",
+          "url": "http://bitbucket.org/keesey/namesonnodes-sa/"
+        },
+        {
+          "name": "Definitions Document",
+          "url": "http://namesonnodes.org/ns/math/2009/"
+        },
+        {
+          "name": "HTML5 Canvas Renderer",
+          "url": "http://namesonnodes.org/phylopainter/"
+        },
+        {
+          "name": "Java Toolkit",
+          "url": "http://bitbucket.org/keesey/namesonnodes_java/"
+        },
+        {
+          "name": "Research Publication",
+          "url": "http://dx.doi.org/10.1111/j.1463-6409.2007.00302.x"
+        }
+      ],
+      "technologies": ["ActionScript", "Blaze DS*", "DOT", "e4x", "Flash Builder", "Flare*", "Flex", "FlexUnit", "GraphML", "Hibernate*", "HTML5", "Java", "JavaScript", "JBoss*", "MathML", "MXML", "NexML", "Nexus", "PL/pgSQL*", "Postgres*", "Schema*"],
+      "footnote": "Used in an earlier version or a dormant or extra sub-project."
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Keesey, T. M.",
+      "year": 2007,
+      "title": "A mathematical approach to defining clade names, with potential applications to computer storage and processing",
+      "journal": "Zoologica Scripta",
+      "volume": 36,
+      "issue": 6,
+      "pages": [607, 621],
+      "doi": "10.1111/j.1463-6409.2007.00302.x"
+    },
+    {
+      "authors": "Hone, D. W. E., T. M. Keesey, D. Pisani &amp; A. Purvis",
+      "year": 2005,
+      "title": "Macroevolutionary trends in the Dinosauria: Cope's rule",
+      "journal": "Journal of Evolutionary Biology",
+      "volume": 18,
+      "pages": [587, 595],
+      "doi": "10.1111/j.1420-9101.2004.00870.x"
+    }
+  ],
+  "societies": [
+    {
+      "name": "International Society for Phylogenetic Nomenclature",
+      "title": "Treasurer/Webmaster"
+    },
+    {
+      "name": "Society of Vertebrate Paleontology",
+      "title": "Member"
+    }
+  ],
+  "education": [
+    {
+      "organization": "University of Maryland Baltimore County",
+      "graduation": 1999,
+      "graduationQualifier": "Cum Laude",
+      "degree": "Bachelor of Arts in Visual Arts, emphasis in Imaging and Digital Art"
+    }
+  ],
+  "links": [
+    {
+      "title": "LinkedIn profile",
+      "url": "http://www.linkedin.com/in/tmkeesey"
+    },
+    {
+      "title": "<span class='title'>PhyloPic</span>",
+      "url": "http://phylopic.org/"
+    },
+    {
+      "title": "<span class='title'>Names on Nodes</span>",
+      "url": "http://namesonnodes.org/"
+    },
+    {
+      "title": "<span class='title'>A Three-Pound Monkey Brain</span> (blog)",
+      "url": "http://3lbmonkeybrain.blogspot.com/"
+    },
+    {
+      "title": "<span class='title'>Dragabok</span> (blog)",
+      "url": "http://dragabok.blogspot.com/"
+    },
+    {
+      "title": "<span class='title'>Art</span> (image collection)",
+      "url": "http://www.flickr.com/photos/keesey/collections/72157600607365272"
+    },
+    {
+      "title": "<span class='title'>Parry &amp; Carney</span> (comic strip)",
+      "url": "http://parryandcarney.com/"
+    }
+  ]
+}
