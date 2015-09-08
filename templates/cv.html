@@ -7,7 +7,7 @@
  		<meta name="description" content="Résumé for ${ person.name.given } ${ person.name.family }, ${ person.tagline }">
  		<meta name="author" content="${ person.name.given } ${ person.name.family } &lt;${ person.email }&gt;">
  		<!--<link rel="icon" href="../../favicon.ico">-->
-	 	<title>${ person.name }</title>
+	 	<title>${ person.name.given } ${ person.name.family }</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -18,10 +18,144 @@
 	</head>
 	<body>
 	 	<div class="container">
-			<div class="jumbotron">
+			<header id="header">
 				<h1>${ person.name.given } ${ person.name.family }</h1>
 				<p class="lead">${ person.tagline }</p>
-			</div>
+			</header>
+			<section class="contact">
+				<h2>Contact</h2>
+				<span class="address">
+					<span class="locality">${ person.address.locality }</span>,
+					<span class="region">${ person.address.region }</span>
+				</span>
+				<span class="website">${ person.website }</span>
+				<span class="email">
+					<a href="mailto:${ person.email }">${ person.email }</a>
+				</span>
+			</section>
+			<section id="objective">
+				<h2>Expertise</h2>
+				<div>${ objective }</div>
+			</section>
+			<section id="skills">
+				<h2>Skill Set</h2>
+				<% for (var item in skills) { %>
+				<div class="item">
+					<h3>${ item }</h3>
+					<ul>
+						<% _.forEach(skills[item], function(skill) { %>
+						<li class="skill">${ skill }</li>
+						<% }); %>
+					</ul>
+				</div>
+				<% } %>
+			</section>
+			<section id="experience">
+				<h2>Work Experience</h2>
+				<% _.forEach(experience, function(item) { %>
+				<div class="item">
+					<span class="title">${ item.title }</span>
+					<span class="years">${ item.years.join('–') }</span>
+					<span class="organization">${ item.organization }</span>
+					<span class="location">${ item.location }</span>
+					<ul class="responsibilities">
+						<% _.forEach(item.responsibilities, function(responsibility) { %>
+						<li>${ responsibility }</li>
+						<% }); %>
+					</ul>
+				</div>
+				<% }); %>
+			</section>
+			<section id="samples">
+				<h2>Code Samples</h2>
+				<% _.forEach(samples, function(item) { %>
+				<div class="item">
+					<span class="language">${ item.language }</span>
+					<a class="project" href="${ item.project.url }">${ item.project.name }</a>
+					<a class="code" href="${ item.code.url }">${ item.code.name }</a>
+				</div>
+				<% }); %>
+			</section>
+			<section id="projects">
+				<h2>Open Source Projects</h2>
+				<% _.forEach(projects, function(item) { %>
+				<div class="item">
+					<a class="name" href="${ item.url }">${ item.name }</a>
+					<span class="type">${ item.type }</span>
+					<div class="description">${ item.description }</div>
+					<ul class="components">
+						<% _.forEach(item.components, function(component) { %>
+						<li>
+							<a href="${ component.url }">${ component.name }</a>
+						</li>
+						<% }); %>
+					</ul>
+					<ul class="technologies">
+						<% _.forEach(item.technologies, function(technology) { %>
+						<li>${ technology }</li>
+						<% }); %>
+					</ul>
+					<% if (item.footnote) { %>
+					<span>* ${ item.footnote }</span>
+					<% } %>
+				</div>
+				<% }); %>
+			</section>
+			<section id="publications">
+				<h2>Research Publications</h2>
+				<% _.forEach(publications, function(item) { %>
+				<div class="item">
+					<span class="authors">${ item.authors }</span>
+					(<span class="year">${ item.year }</span>).
+					<span class="title">${ item.title }</span>.
+					<span class="journal">${ item.journal }</span>
+					<span class="volume">${ item.volume }</span><% if (item.issue) { %>(<span class="issue">${ item.issue }</span>)<% } %>:<span class="pages">${ item.pages.join('–') }</span>.
+					<a class="name" href="http://dx.doi.org/${ item.doi }">DOI: ${ item.doi }</a>
+				</div>
+				<% }); %>
+			</section>
+			<section id="societies">
+				<h2>Societies</h2>
+				<% _.forEach(societies, function(item) { %>
+				<div class="item">
+					<a href="${ item.url }" class="name">${ item.name }</a>
+					(<span class="title">${ item.title }</span>)
+				</div>
+				<% }); %>
+			</section>
+			<section id="education">
+				<h2>Education</h2>
+				<% _.forEach(education, function(item) { %>
+				<div class="item">
+					<span class="organization">${ item.organization }</span>
+					<span class="graduation">Graduated ${ item.graduationQualifier } ${ item.graduation }</span>
+					<span class="degree">${ item.degree }</span>
+				</div>
+				<% }); %>
+			</section>
+			<section id="links">
+				<h2>Further Links</h2>
+				<ul>
+					<% _.forEach(links, function(item) { %>
+					<li class="item">
+						<a href="${ item.url }" class="title">${ item.title }</a>
+						<% if (item.type) { %><span class="type">(${ item.type })</span><% } %>
+					</li>
+					<% }); %>
+				</ul>
+			</section>
+			<footer id="footer">
+				<span class="name">
+					${ person.name.given } ${ person.name.family }
+				</span>
+				<span class="address">
+					<span class="locality">${ person.address.locality }</span>,
+					<span class="region">${ person.address.region }</span>
+				</span>
+				<span class="email">
+					<a href="mailto:${ person.email }">${ person.email }</a>
+				</span>
+			</footer>
 	 	</div>
 	</body>
 </html>

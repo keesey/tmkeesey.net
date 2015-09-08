@@ -19,8 +19,10 @@
   "private": true,
   "devDependencies": {
     "gulp": "~3.9.0",
-    "gulp-template": "~3.0.0",
+    "gulp-minify-html": "~1.0.4",
     "gulp-rename": "~1.2.2",
+    "gulp-template": "~3.0.0",
+    "gulp-watch": "~4.3.5",
     "gulp-webserver": "~0.9.1"
   }
 }

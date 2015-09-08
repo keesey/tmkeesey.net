@@ -58,7 +58,7 @@
     },
     {
         "title": "Paleo Technician",
-        "year": 2004,
+        "years": [2004],
         "organization": "Wyoming Dinosaur Center",
         "location": "Thermopolis, Wyoming",
         "responsibilities": [
@@ -99,7 +99,7 @@
         "name": "Haeckel",
         "url": "https://github.com/keesey/Haeckel/"
       },
-      "sample": {
+      "code": {
         "name": "Haeckel.DAGSolver",
         "url": "https://github.com/keesey/Haeckel/blob/master/src/lib/solvers/DAGSolver.ts"
       }
@@ -110,7 +110,7 @@
         "name": "PyMathema",
         "url": "https://bitbucket.org/keesey/pymathema/"
       },
-      "sample": {
+      "code": {
         "name": "pymathema.evaluation",
         "url": "https://bitbucket.org/keesey/pymathema/src/be12d64fcf4c/src/pymathema/evaluation.py"
       }
@@ -121,7 +121,7 @@
       "name": "PhyloPic",
       "type": "Website",
       "url": "http://phylopic.org/",
-      "description": "<span class='title'>PhyloPic</span> is a website with freely reusable silhouette images of animals, plants, and other life forms. Images can be searched for taxonomically, so that close approximations can be found for unillustrated groups. A public API is provided (and used by the site itself).",
+      "description": "<span class=\"title\">PhyloPic</span> is a website with freely reusable silhouette images of animals, plants, and other life forms. Images can be searched for taxonomically, so that close approximations can be found for unillustrated groups. A public API is provided (and used by the site itself).",
       "components": [
         {
           "name": "Website",
@@ -136,13 +136,13 @@
           "url": "http://phylopic.org/api/"
         }
       ],
-      "technologies": ["Knockout", "jQuery", "TypeScript", "HTML", "CSS", "SVG", "Django", "Python", "ImageMagick", "Postgres", "pl/pgSQL"]
+      "technologies": ["Knockout", "jQuery", "TypeScript", "HTML", "CSS", "SVG", "Django", "Python", "ImageMagick", "Postgres", "PL/pgSQL"]
     },
     {
       "name": "Names on Nodes",
       "type": "Mathematical Methodology/Rich Internet Application",
       "url": "http://namesonnodes.org/",
-      "description": "<span class='title'>Names on Nodes</span> is a project with the goal of automating biological nomenclature. This involves two core aspects:<ol><li>The storage of scientific names and their definitions as MathML.</li><li>The automated application of names to scientific hypotheses.</li></ol>",
+      "description": "<span class=\"title\">Names on Nodes</span> is a project with the goal of automating biological nomenclature. This involves two core aspects:<ol><li>The storage of scientific names and their definitions as MathML.</li><li>The automated application of names to scientific hypotheses.</li></ol>",
       "components": [
         {
           "name": "Interactive Application",
@@ -197,11 +197,13 @@
   "societies": [
     {
       "name": "International Society for Phylogenetic Nomenclature",
-      "title": "Treasurer/Webmaster"
+      "title": "Treasurer/Webmaster",
+      "url": "http://phylonames.org/"
     },
     {
       "name": "Society of Vertebrate Paleontology",
-      "title": "Member"
+      "title": "Member",
+      "url": "http://vertpaleo.org/"
     }
   ],
   "education": [
@@ -214,31 +216,35 @@
   ],
   "links": [
     {
-      "title": "LinkedIn profile",
+      "title": "LinkedIn Profile",
       "url": "http://www.linkedin.com/in/tmkeesey"
     },
     {
-      "title": "<span class='title'>PhyloPic</span>",
+      "title": "PhyloPic",
       "url": "http://phylopic.org/"
     },
     {
-      "title": "<span class='title'>Names on Nodes</span>",
+      "title": "Names on Nodes",
       "url": "http://namesonnodes.org/"
     },
     {
-      "title": "<span class='title'>A Three-Pound Monkey Brain</span> (blog)",
+      "title": "A Three-Pound Monkey Brain",
+      "type": "blog",
       "url": "http://3lbmonkeybrain.blogspot.com/"
     },
     {
-      "title": "<span class='title'>Dragabok</span> (blog)",
+      "title": "Dragabok",
+      "type": "sketch blog",
       "url": "http://dragabok.blogspot.com/"
     },
     {
-      "title": "<span class='title'>Art</span> (image collection)",
+      "title": "Art",
+      "type": "image collection",
       "url": "http://www.flickr.com/photos/keesey/collections/72157600607365272"
     },
     {
-      "title": "<span class='title'>Parry &amp; Carney</span> (comic strip)",
+      "title": "Parry &amp; Carney",
+      "type": "comic strip",
       "url": "http://parryandcarney.com/"
     }
   ]
