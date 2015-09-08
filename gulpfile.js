@@ -1,12 +1,14 @@
 var gulp = require('gulp');
 
+var less = require('gulp-less');
+var minifyCSS = require('gulp-minify-css');
 var minifyHTML = require('gulp-minify-html');
 var rename = require("gulp-rename");
 var template = require('gulp-template');
 var webserver = require('gulp-webserver');
 
 var DATA = {
-	cv: require('./data/cv.json')
+	cv: require('./src/data/cv.json')
 };
 
 function handleError(error) {
@@ -14,9 +16,23 @@ function handleError(error) {
 	this.emit('end');
 }
 
-gulp.task('build', function ()
+gulp.task('build', ['build:css', 'build:html']);
+
+gulp.task('build:css', function ()
 {
-    return gulp.src('templates/cv.html')
+	return gulp.src('./src/less/*.less')
+		.pipe(less({
+			paths: ['./node_modules/']
+		}))
+		.on('error', handleError)
+		.pipe(minifyCSS())
+		.on('error', handleError)
+		.pipe(gulp.dest('dist/css'));
+});
+
+gulp.task('build:html', function ()
+{
+    return gulp.src('./src/templates/cv.html')
         .pipe(template(DATA.cv))
 		.on('error', handleError)
 		.pipe(minifyHTML())
@@ -39,7 +55,8 @@ gulp.task('serve', ['build', 'watch'], function()
 
 gulp.task('watch', function()
 {
-	return gulp.watch(['data/*.json', 'templates/*.html'], ['build']);
+	gulp.watch(['./src/data/*.json', './src/templates/*.html'], ['build:html']);
+	gulp.watch(['./src/less/*.less'], ['build:css']);
 });
 
 gulp.task('default', ['serve']);

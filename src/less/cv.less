@@ -1,0 +1,138 @@
+@import 'bootstrap/less/variables';
+@import 'bootstrap/less/mixins';
+
+body
+{
+	font-family: "Palatino Linotype", serif;
+}
+
+h1, h2, h3
+{
+	font-variant: small-caps;
+}
+
+header
+{
+	border-bottom: 1px solid @text-color;	
+	text-align: center;
+	
+	h1
+	{
+		font-weight: bold;
+	}
+	
+	.lead
+	{
+		font-style: italic;
+	}
+}
+
+section
+{
+	margin-bottom: 1em;
+	
+	.clearfix();
+	
+	> h2
+	{
+		border-bottom: 1px solid @text-color;	
+		font-weight: bold;
+	}
+	
+	> div
+	{
+		.make-row();
+	}
+	
+	&#contact
+	{
+		border-bottom: 1px solid @text-color;	
+
+		h2
+		{
+			display: none;
+		}
+		
+		> div
+		{
+			> span
+			{
+				.make-md-column(4);
+				
+				@media (min-width: @screen-md-min)
+				{
+					&:nth-child(2)
+					{
+						text-align: center;
+					}
+					&:nth-child(3)
+					{
+						text-align: right;
+					}
+				}
+			}
+		}
+		
+	}
+
+	&#objective
+	{
+		> div
+		{
+			> p
+			{
+				font-size: @font-size-large;
+				
+				.make-md-column(12);
+			}
+		}
+	}
+
+	&#skills
+	{
+		.item
+		{
+			.make-md-column(12);
+			.make-row();
+			
+			h3
+			{
+				font-size: @font-size-large;
+				margin-top: 0;
+
+				.make-md-column(3);
+			}
+			
+			ul
+			{
+				.make-md-column(9);
+			}
+		}
+	}
+	
+	&#experience
+	{
+		.item
+		{
+			.make-md-column(12);
+			.make-row();
+			
+			> span
+			{
+				.make-md-column(3);
+				
+				&.title
+				{
+					font-size: @font-size-large;
+					font-variant: small-caps;
+				}
+			}
+			
+			ul
+			{
+				.make-md-column(12);
+			}
+		}
+	}
+}
+
