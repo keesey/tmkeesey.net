@@ -5,7 +5,7 @@
       "given": "T. Michael"
     },
     "tagline": "Technical Consultant and Developer — Web Applications",
-    "website": "http://tmkeesey.net/",
+    "website": "http://tmkeesey.net",
     "email": "keesey@gmail.com",
     "address": {
       "locality": "Los Angeles",
@@ -121,7 +121,7 @@
       "name": "PhyloPic",
       "type": "Website",
       "url": "http://phylopic.org/",
-      "description": "<span class=\"title\">PhyloPic</span> is a website with freely reusable silhouette images of animals, plants, and other life forms. Images can be searched for taxonomically, so that close approximations can be found for unillustrated groups. A public API is provided (and used by the site itself).",
+      "description": "<em>PhyloPic</em> is a website with freely reusable silhouette images of animals, plants, and other life forms. Images can be searched for taxonomically, so that close approximations can be found for unillustrated groups. A public API is provided (and used by the site itself).",
       "components": [
         {
           "name": "Website",
@@ -142,7 +142,7 @@
       "name": "Names on Nodes",
       "type": "Mathematical Methodology/Rich Internet Application",
       "url": "http://namesonnodes.org/",
-      "description": "<span class=\"title\">Names on Nodes</span> is a project with the goal of automating biological nomenclature. This involves two core aspects:<ol><li>The storage of scientific names and their definitions as MathML.</li><li>The automated application of names to scientific hypotheses.</li></ol>",
+      "description": "<em>Names on Nodes</em> is a project with the goal of automating biological nomenclature. This involves two core aspects:<ol><li>The storage of scientific names and their definitions as MathML.</li><li>The automated application of names to scientific hypotheses.</li></ol>",
       "components": [
         {
           "name": "Interactive Application",
@@ -216,34 +216,52 @@
   ],
   "links": [
     {
-      "title": "LinkedIn Profile",
+      "title": "LinkedIn",
+      "type": "social media account",
       "url": "http://www.linkedin.com/in/tmkeesey"
     },
     {
-      "title": "PhyloPic",
+      "title": "Twitter",
+      "type": "social media account",
+      "url": "https://twitter.com/tmkeesey"
+    },
+    {
+      "title": "GitHub",
+      "type": "code repository",
+      "url": "https://github.com/keesey"
+    },
+    {
+      "title": "BitBucket",
+      "type": "code repository",
+      "url": "https://bitbucket.org/keesey/"
+    },
+    {
+      "title": "<em>PhyloPic</em>",
+      "type": "website",
       "url": "http://phylopic.org/"
     },
     {
-      "title": "Names on Nodes",
+      "title": "<em>Names on Nodes</em>",
+      "type": "website",
       "url": "http://namesonnodes.org/"
     },
     {
-      "title": "A Three-Pound Monkey Brain",
+      "title": "<em>A Three-Pound Monkey Brain</em>",
       "type": "blog",
       "url": "http://3lbmonkeybrain.blogspot.com/"
     },
     {
-      "title": "Dragabok",
+      "title": "<em>Dragabok</em>",
       "type": "sketch blog",
       "url": "http://dragabok.blogspot.com/"
     },
     {
-      "title": "Art",
+      "title": "<em>Art</em>",
       "type": "image collection",
       "url": "http://www.flickr.com/photos/keesey/collections/72157600607365272"
     },
     {
-      "title": "Parry &amp; Carney",
+      "title": "<em>Parry &amp; Carney</em>",
       "type": "comic strip",
       "url": "http://parryandcarney.com/"
     }

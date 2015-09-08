@@ -25,30 +25,30 @@
 			</header>
 			<section id="contact">
 				<h2>Contact</h2>
-				<div>
+				<address class="content">
 					<span class="address">
 						<span class="locality">${ person.address.locality }</span>,
 						<span class="region">${ person.address.region }</span>
 					</span>
 					<span class="website">
-						<code>${ person.website }</code>
+						<em>${ person.website }</em>
 					</span>
 					<span class="email">
 						<a href="mailto:${ person.email }">
-							<code>${ person.email }</code>
+							<em>${ person.email }</em>
 						</a>
 					</span>
-				</div>
+				</address>
 			</section>
 			<section id="objective">
 				<h2>Expertise</h2>
-				<div>
+				<div class="content">
 					<p>${ objective }</p>
 				</div>
 			</section>
 			<section id="skills">
 				<h2>Skill Set</h2>
-				<div>
+				<div class="content">
 					<% for (var item in skills) { %>
 					<div class="item">
 						<h3>${ item }</h3>
@@ -63,14 +63,20 @@
 			</section>
 			<section id="experience">
 				<h2>Work Experience</h2>
-				<div>
+				<div class="content">
 					<% _.forEach(experience, function(item) { %>
 					<div class="item">
-						<span class="title">${ item.title }</span>
-						<span class="years">${ item.years.join('–') }</span>
-						<span class="organization">${ item.organization }</span>
-						<span class="location">${ item.location }</span>
-						<ul class="responsibilities">
+						<div class="main">
+							<% if (item.organization) { %>
+							<span class="title">${ item.title }</span>
+							<span class="organization">${ item.organization }</span>
+							<% } else {%>
+							<span class="title no-organization">${ item.title }</span>
+							<% } %>
+							<span class="location">${ item.location }</span>
+							<span class="years">${ item.years.join('–') }</span>
+						</div>
+						<ul class="responsibilities list-unstyled">
 							<% _.forEach(item.responsibilities, function(responsibility) { %>
 							<li>${ responsibility }</li>
 							<% }); %>
@@ -81,14 +87,29 @@
 			</section>
 			<section id="samples">
 				<h2>Code Samples</h2>
-				<div>
-					<% _.forEach(samples, function(item) { %>
-					<div class="item">
-						<span class="language">${ item.language }</span>
-						<a class="project" href="${ item.project.url }">${ item.project.name }</a>
-						<a class="code" href="${ item.code.url }">${ item.code.name }</a>
-					</div>
-					<% }); %>
+				<div class="table-responsive">
+					<table class="table">
+						<tr>
+							<th>Language</th>
+							<th>Project</th>
+							<th>Sample</th>
+						</tr>
+						<% _.forEach(samples, function(item) { %>
+						<tr class="item">
+							<td class="language">${ item.language }</td>
+							<td class="project">
+								<a href="${ item.project.url }">
+									<em>${ item.project.name }</em>
+								</a>
+							</td>
+							<td class="code">
+								<a href="${ item.code.url }">
+									<em>${ item.code.name }</em>
+								</a>
+							</td>
+						</tr>
+						<% }); %>
+					</table>
 				</div>
 			</section>
 			<section id="projects">
@@ -96,9 +117,11 @@
 				<div>
 					<% _.forEach(projects, function(item) { %>
 					<div class="item">
-						<a class="name" href="${ item.url }">${ item.name }</a>
-						<span class="type">${ item.type }</span>
-						<div class="description">${ item.description }</div>
+						<h3>
+							<a class="name" href="${ item.url }">${ item.name }</a>
+							<small class="type">${ item.type }</small>
+						</h3>
+						<p class="description">${ item.description }</p>
 						<ul class="components">
 							<% _.forEach(item.components, function(component) { %>
 							<li>
@@ -106,13 +129,17 @@
 							</li>
 							<% }); %>
 						</ul>
-						<ul class="technologies">
-							<% _.forEach(item.technologies, function(technology) { %>
-							<li>${ technology }</li>
-							<% }); %>
-						</ul>
+						<div>
+							<strong>Technologies Used</strong>
+							&emsp;
+							<ul class="technologies list-inline" style="display: inline">
+								<% _.forEach(item.technologies, function(technology) { %>
+								<li>${ technology }</li>
+								<% }); %>
+							</ul>
+						</div>
 						<% if (item.footnote) { %>
-						<span>* ${ item.footnote }</span>
+						<small class="footnote">* ${ item.footnote }</small>
 						<% } %>
 					</div>
 					<% }); %>
@@ -128,7 +155,7 @@
 						<span class="title">${ item.title }</span>.
 						<span class="journal">${ item.journal }</span>
 						<span class="volume">${ item.volume }</span><% if (item.issue) { %>(<span class="issue">${ item.issue }</span>)<% } %>:<span class="pages">${ item.pages.join('–') }</span>.
-						<a class="name" href="http://dx.doi.org/${ item.doi }">DOI: ${ item.doi }</a>
+						<a class="doi" href="http://dx.doi.org/${ item.doi }">DOI: ${ item.doi }</a>
 					</div>
 					<% }); %>
 				</div>
@@ -137,10 +164,10 @@
 				<h2>Societies</h2>
 				<div>
 					<% _.forEach(societies, function(item) { %>
-					<div class="item">
+					<h5 class="item">
 						<a href="${ item.url }" class="name">${ item.name }</a>
-						(<span class="title">${ item.title }</span>)
-					</div>
+						<small>(<span class="title">${ item.title }</span>)</small>
+					</h5>
 					<% }); %>
 				</div>
 			</section>
@@ -149,8 +176,10 @@
 				<div>
 					<% _.forEach(education, function(item) { %>
 					<div class="item">
-						<span class="organization">${ item.organization }</span>
-						<span class="graduation">Graduated ${ item.graduationQualifier } ${ item.graduation }</span>
+						<h4>
+							<span class="organization">${ item.organization }</span>
+							<small class="graduation">Graduated ${ item.graduationQualifier } ${ item.graduation }</small>
+						</h4>
 						<span class="degree">${ item.degree }</span>
 					</div>
 					<% }); %>
@@ -176,7 +205,9 @@
 					<span class="region">${ person.address.region }</span>
 				</span>
 				<span class="email">
-					<a href="mailto:${ person.email }">${ person.email }</a>
+					<a href="mailto:${ person.email }">
+						<em>${ person.email }</em>
+					</a>
 				</span>
 			</footer>
 	 	</div>

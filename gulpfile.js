@@ -1,15 +1,12 @@
 var gulp = require('gulp');
 
+var data = require('gulp-data');
 var less = require('gulp-less');
 var minifyCSS = require('gulp-minify-css');
 var minifyHTML = require('gulp-minify-html');
 var rename = require("gulp-rename");
 var template = require('gulp-template');
 var webserver = require('gulp-webserver');
-
-var DATA = {
-	cv: require('./src/data/cv.json')
-};
 
 function handleError(error) {
 	console.error('' + error);
@@ -33,7 +30,10 @@ gulp.task('build:css', function ()
 gulp.task('build:html', function ()
 {
     return gulp.src('./src/templates/cv.html')
-        .pipe(template(DATA.cv))
+		.pipe(data(function() {
+			return require('./src/data/cv.json');
+		}))
+        .pipe(template())
 		.on('error', handleError)
 		.pipe(minifyHTML())
 		.on('error', handleError)
