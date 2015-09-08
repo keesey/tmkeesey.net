@@ -24,11 +24,15 @@ h5 small
 header
 {
 	border-bottom: 1px solid @text-color;	
-	text-align: center;
 	
 	h1
 	{
 		font-weight: bold;
+	}
+	
+	img
+	{
+		border: 1px solid @text-color;
 	}
 	
 	.lead
@@ -69,16 +73,13 @@ section
 			{
 				.make-md-column(4);
 				
-				@media (min-width: @screen-md-min)
+				&:nth-child(2)
 				{
-					&:nth-child(2)
-					{
-						text-align: center;
-					}
-					&:nth-child(3)
-					{
-						text-align: right;
-					}
+					text-align: center;
+				}
+				&:nth-child(3)
+				{
+					text-align: right;
 				}
 			}
 		}

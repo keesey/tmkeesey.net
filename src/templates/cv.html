@@ -19,9 +19,14 @@
 	</head>
 	<body>
 	 	<div class="container">
-			<header>
-				<h1>${ person.name.given } ${ person.name.family }</h1>
-				<p class="lead">${ person.tagline }</p>
+			<header class="media">
+				<div class="media-body">
+					<h1>${ person.name.given } ${ person.name.family }</h1>
+					<p class="lead">${ person.tagline }</p>
+				</div>
+				<div class="media-right">
+					<img src="images/portrait.jpg" width="100" height="162" alt="portrait">
+				</div>
 			</header>
 			<section id="contact">
 				<h2>Contact</h2>
@@ -30,7 +35,7 @@
 						<span class="locality">${ person.address.locality }</span>,
 						<span class="region">${ person.address.region }</span>
 					</span>
-					<span class="website">
+					<span class="website hidden-xs">
 						<em>${ person.website }</em>
 					</span>
 					<span class="email">
@@ -197,7 +202,7 @@
 				</ul>
 			</section>
 			<footer id="footer">
-				<span class="name">
+				<span class="name hidden-xs">
 					${ person.name.given } ${ person.name.family }
 				</span>
 				<span class="address">
