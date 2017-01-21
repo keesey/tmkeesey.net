@@ -8,7 +8,8 @@ var rename = require("gulp-rename");
 var template = require('gulp-template');
 var webserver = require('gulp-webserver');
 
-function handleError(error) {
+function handleError(error)
+{
 	console.error('' + error);
 	this.emit('end');
 }

@@ -14,9 +14,9 @@
   },
   "objective": "Engineering and developing interactive applications, particularly projects involving frameworks, dynamic animation, complex behaviors, data modeling and visualization, and/or new technologies.",
   "skills": {
-    "Languages": ["JavaScript", "TypeScript", "ActionScript", "XML", "HTML5", "CSS", "Python", "SQL", "Java", "PHP", "C++", "Perl", "PL/pgSQL"],
-    "Frameworks and Libraries": ["Angular", "Knockout", "jQuery", "Jasmine", "Flex", "Django", ".NET", "d3", "Node"],
-    "Dev Tools": ["Git", "Mercurial", "npm", "Bower", "Gulp", "Grunt", "JIRA", "Mantis", "Stash", "Bamboo", "Subversion"],
+    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "ActionScript", "CSS", "Less", "Sass", "HTML5", "XML", "PHP", "C++", "Perl", "SQL", "PL/pgSQL"],
+    "Frameworks and Libraries": ["Angular", "React", "Knockout", "jQuery", "Jasmine", "Bootstrap", "Kendo UI", "Flex", "d3", "Django", "Node", ".NET"],
+    "Dev Tools": ["Git", "npm", "gulp", "Grunt", "JIRA", "Mantis", "Stash", "Bamboo", "Rally"],
     "Databases": ["Postgres", "SQL Server", "MySQL"],
     "Media Tools": ["Photoshop", "Flash", "Illustrator"],
     "Methodologies": ["Agile", "Scrum"],
@@ -24,20 +24,32 @@
   },
   "experience": [
     {
+      "title": "Senior Software Engineer",
+      "years": [2016, "present"],
+      "organization": "Cast &amp; Crew",
+      "location": "Burbank, California",
+      "responsibilities": [
+        "Develop web applications for entertainment staffing and payroll.",
+        "Act as UI lead developer for certain products.",
+        "Review code and assist management of offsite team members.",
+        "Evaluate technical solutions and workflow methodologies."
+      ]
+    },
+    {
       "title": "Senior Web Developer",
-      "years": [2011, "present"],
+      "years": [2011, 2016],
       "organization": "Wells Fargo &amp; Company",
       "location": "Santa Monica, California",
       "responsibilities": [
-        "Develop web applications for internal usage by Capital Finance.",
-        "Review code and assist management of overseas team.",
-        "Evaluate technical solutions and workflow methodologies.",
-        "Work with business analysts to formulate development goals."
+        "Developed web applications for internal usage by Capital Finance.",
+        "Acted as UI lead developer for sprint team.",
+        "Reviewed code and assist management of overseas team (Hyderabad).",
+        "Worked with business analysts to formulate development goals."
       ]
     },
     {
       "title": "Freelance Developer/Consultant",
-      "years": [2001, "present (non-continuously)"],
+      "years": [2001, "2011 (non-continuously)"],
       "location": "Los Angeles County, California",
       "responsibilities": [
         "Develop websites and other interactive media.",
@@ -136,7 +148,20 @@
           "url": "http://phylopic.org/api/"
         }
       ],
-      "technologies": ["Knockout", "jQuery", "TypeScript", "HTML", "CSS", "SVG", "Django", "Python", "ImageMagick", "Postgres", "PL/pgSQL"]
+      "technologies": ["Knockout", "jQuery", "TypeScript", "HTML5", "CSS", "SVG", "Bootstrap", "Django", "Python", "ImageMagick", "Inkscape", "Postgres", "PL/pgSQL", "UNIX shell scripts"]
+    },
+    {
+      "name": "Paleocene",
+      "type": "Comic Book/Website",
+      "url": "http://paleocene-comic.com/",
+      "description": "<em>Paleocene</em>  is a comic book set shortly after the great extinction that ended the “Age of Reptiles”.",
+      "components": [
+        {
+          "name": "Website",
+          "url": "http://paleocene-comic.com/"
+        }
+      ],
+      "technologies": ["JavaScript (“raw”)", "Hammer.JS", "gulp", "npm", "Bower", "HTML5", "CSS", "SVG", "ImageMagick", "Inkscape"]
     },
     {
       "name": "Names on Nodes",
@@ -241,19 +266,14 @@
       "url": "http://phylopic.org/"
     },
     {
+      "title": "<em>Paleocene</em>",
+      "type": "comic book/website",
+      "url": "http://paleocene-comic.com/"
+    },
+    {
       "title": "<em>Names on Nodes</em>",
       "type": "website",
       "url": "http://namesonnodes.org/"
-    },
-    {
-      "title": "<em>A Three-Pound Monkey Brain</em>",
-      "type": "blog",
-      "url": "http://3lbmonkeybrain.blogspot.com/"
-    },
-    {
-      "title": "<em>Dragabok</em>",
-      "type": "sketch blog",
-      "url": "http://dragabok.blogspot.com/"
     },
     {
       "title": "<em>Art</em>",
@@ -264,6 +284,11 @@
       "title": "<em>Parry &amp; Carney</em>",
       "type": "comic strip",
       "url": "http://parryandcarney.com/"
+    },
+    {
+      "title": "<em>A Three-Pound Monkey Brain</em>",
+      "type": "blog",
+      "url": "http://3lbmonkeybrain.blogspot.com/"
     }
   ]
 }
