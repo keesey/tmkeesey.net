@@ -23,7 +23,7 @@
   "experience": [
     {
       "title": "Freelance Developer/Consultant",
-      "years": [2001, "present (non-continuously)"],
+      "years": [2001, "present"],
       "location": "Los Angeles County, California",
       "responsibilities": [
         "Develop websites and other interactive media.",
@@ -37,10 +37,10 @@
       "organization": "Cast &amp; Crew",
       "location": "Burbank, California",
       "responsibilities": [
-        "Develop web applications for entertainment staffing and payroll.",
-        "Act as UI lead developer for certain products.",
-        "Review code and assist management of offsite team members.",
-        "Evaluate technical solutions and workflow methodologies."
+        "Developed web applications for entertainment staffing and payroll.",
+        "Acted as UI lead developer for certain products.",
+        "Reviewed code and assisted management of offsite team members.",
+        "Evaluated technical solutions and workflow methodologies."
       ]
     },
     {
@@ -51,7 +51,7 @@
       "responsibilities": [
         "Developed web applications for internal usage by Capital Finance.",
         "Acted as UI lead developer for sprint team.",
-        "Reviewed code and assist management of overseas team (Hyderabad).",
+        "Reviewed code and assisted management of overseas team (Hyderabad).",
         "Worked with business analysts to formulate development goals."
       ]
     },
