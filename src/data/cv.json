@@ -4,7 +4,7 @@
       "family": "Keesey",
       "given": "T. Michael"
     },
-    "tagline": "Technical Consultant and Developer — Web Applications",
+    "tagline": "Web Application Engineer",
     "website": "http://tmkeesey.net",
     "email": "keesey@gmail.com",
     "address": {
@@ -12,20 +12,28 @@
       "region": "California"
     }
   },
-  "objective": "Engineering and developing interactive applications, particularly projects involving frameworks, dynamic animation, complex behaviors, data modeling and visualization, and/or new technologies.",
+  "objective": "Engineering interactive applications, particularly projects involving frameworks, dynamic animation, complex behaviors, data modeling and visualization, and/or new technologies.",
   "skills": {
-    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "ActionScript", "CSS", "Less", "Sass", "HTML5", "XML", "PHP", "C++", "Perl", "SQL", "PL/pgSQL"],
-    "Frameworks and Libraries": ["Angular", "React", "Knockout", "jQuery", "Jasmine", "Bootstrap", "Kendo UI", "Flex", "d3", "Django", "Node", ".NET"],
-    "Dev Tools": ["Git", "npm", "gulp", "Grunt", "JIRA", "Mantis", "Stash", "Bamboo", "Rally"],
+    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "CSS", "HTML5", "XML", "PHP", "C++", "SQL", "PL/pgSQL"],
+    "Frameworks and Libraries": ["Angular", "React", "Knockout", "jQuery", "Jasmine", "Mocha/Chai", "Bootstrap", "Kendo UI", "d3", "Django", "Node"],
     "Databases": ["Postgres", "SQL Server", "MySQL"],
-    "Media Tools": ["Photoshop", "Flash", "Illustrator"],
-    "Methodologies": ["Agile", "Scrum"],
-    "Additional Skills": ["Animation", "Biological Nomenclature", "Education", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
+    "Media Tools": ["Photoshop", "Animate", "Illustrator"],
+    "Additional Skills": ["Animation", "Biological Nomenclature", "Cartooning", "Education", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
   },
   "experience": [
     {
+      "title": "Freelance Developer/Consultant",
+      "years": [2001, "present (non-continuously)"],
+      "location": "Los Angeles County, California",
+      "responsibilities": [
+        "Develop websites and other interactive media.",
+        "Act as technical lead, interfacing with clients and other team members.",
+        "Architect project structure and document functional and technical specifications."
+      ]
+    },
+    {
       "title": "Senior Software Engineer",
-      "years": [2016, "present"],
+      "years": [2016, 2017],
       "organization": "Cast &amp; Crew",
       "location": "Burbank, California",
       "responsibilities": [
@@ -45,16 +53,6 @@
         "Acted as UI lead developer for sprint team.",
         "Reviewed code and assist management of overseas team (Hyderabad).",
         "Worked with business analysts to formulate development goals."
-      ]
-    },
-    {
-      "title": "Freelance Developer/Consultant",
-      "years": [2001, "2011 (non-continuously)"],
-      "location": "Los Angeles County, California",
-      "responsibilities": [
-        "Develop websites and other interactive media.",
-        "Act as technical lead, interfacing with clients and other team members.",
-        "Architect project structure and document functional and technical specifications."
       ]
     },
     {
@@ -161,7 +159,7 @@
           "url": "http://paleocene-comic.com/"
         }
       ],
-      "technologies": ["JavaScript (“raw”)", "Hammer.JS", "gulp", "npm", "Bower", "HTML5", "CSS", "SVG", "ImageMagick", "Inkscape"]
+      "technologies": ["JavaScript (“vanilla”)", "Hammer.JS", "gulp", "npm", "Bower", "HTML5", "CSS", "SVG", "ImageMagick", "Inkscape"]
     },
     {
       "name": "Names on Nodes",
@@ -200,6 +198,16 @@
   ],
   "publications": [
     {
+      "authors": "Kane, J., E. Willoughby &amp; T. M. Keesey",
+      "year": 2016,
+      "title": "God's Word or Human Reason?: An Inside Perspective on Creationism",
+      "publisher": "Inkwater Press",
+      "pageCount": 424,
+      "isbn10": "1629013722",
+      "isbn13": "978-1629013725",
+      "asin": "1629013722"
+    },
+    {
       "authors": "Keesey, T. M.",
       "year": 2007,
       "title": "A mathematical approach to defining clade names, with potential applications to computer storage and processing",
@@ -222,7 +230,7 @@
   "societies": [
     {
       "name": "International Society for Phylogenetic Nomenclature",
-      "title": "Treasurer/Webmaster",
+      "title": "Webmaster",
       "url": "http://phylonames.org/"
     },
     {
