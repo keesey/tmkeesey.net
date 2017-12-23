@@ -151,16 +151,40 @@
 				</div>
 			</section>
 			<section id="publications">
-				<h2>Research Publications</h2>
+				<h2>Publications</h2>
 				<div>
 					<% _.forEach(publications, function(item) { %>
 					<div class="item">
 						<span class="authors">${ item.authors }</span>
 						(<span class="year">${ item.year }</span>).
-						<span class="title">${ item.title }</span>.
+						<% if (item.journal) { %>
+						<span class="title title-article">${ item.title }</span>.
+						<% } else { %>
+						<span class="title title-volume">${ item.title }</span>.
+						<% } %>
+						<% if (item.journal) { %>
 						<span class="journal">${ item.journal }</span>
 						<span class="volume">${ item.volume }</span><% if (item.issue) { %>(<span class="issue">${ item.issue }</span>)<% } %>:<span class="pages">${ item.pages.join('–') }</span>.
-						<a class="doi" href="http://dx.doi.org/${ item.doi }">DOI: ${ item.doi }</a>
+						<% } else { %>
+						<span class="publisher">${ item.publisher }</span>.
+						<span class="page-count">${ item.pageCount } pages.</span>
+						<% } %>
+						<% if (item.doi || item.isbn13 || item.isbn10 || item.asin) { %>
+						<span class="identifiers">
+						<% if (item.doi) { %>
+						<a class="identifier" href="http://dx.doi.org/${ item.doi }">DOI: ${ item.doi }</a><% if (item.isbn13 || item.isbn10 || item.asin) { %>;<% } %>
+						<% } %>
+						<% if (item.isbn13) { %>
+						<span class="identifier">ISBN-13: ${ item.isbn13 }</span><% if (item.isbn10 || item.asin) { %>;<% } %>
+						<% } %>
+						<% if (item.isbn10) { %>
+						<span class="identifier">ISBN-10: ${ item.isbn10 }</span><% if (item.asin) { %>;<% } %>
+						<% } %>
+						<% if (item.asin) { %>
+						<a class="identifier" href="https://www.amazon.com/dp/${ item.asin }">ASIN: ${ item.asin }</a>
+						<% } %>
+						</span>
+						<% } %>
 					</div>
 					<% }); %>
 				</div>
