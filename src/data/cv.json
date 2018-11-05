@@ -12,13 +12,14 @@
       "region": "California"
     }
   },
-  "objective": "Engineering interactive applications, particularly projects involving frameworks, dynamic animation, complex behaviors, data modeling and visualization, and/or new technologies.",
+  "objective": "Leading development on interactive applications, primarily for web.",
   "skills": {
-    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "CSS", "HTML5", "XML", "PHP", "C++", "SQL", "PL/pgSQL"],
-    "Frameworks and Libraries": ["Angular", "React", "Knockout", "jQuery", "Jasmine", "Mocha/Chai", "Bootstrap", "Kendo UI", "d3", "Django", "Node"],
+    "Languages": ["JavaScript/TypeScript", "Python", "Java", "HTML5", "XML", "PHP", "SQL"],
+    "Frameworks and Libraries": ["React", "Angular", "Node.js", "d3", "jQuery", "Material UI", "Amazon Web Services"],
+    "Development Tools": ["Git", "Webpack", "Gulp", "Jasmine", "Mocha/Chai", "VSCode"],
     "Databases": ["Postgres", "SQL Server", "MySQL"],
     "Media Tools": ["Photoshop", "Animate", "Illustrator"],
-    "Additional Skills": ["Animation", "Biological Nomenclature", "Cartooning", "Education", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
+    "Additional Skills": ["Animation", "Cartooning", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
   },
   "experience": [
     {
@@ -33,14 +34,23 @@
     },
     {
       "title": "Senior Software Engineer",
+      "years": [2018],
+      "organization": "ZED Connect",
+      "location": "Calabasas, California",
+      "responsibilities": [
+        "Led an international front-end team in developing a portal for truck fleet managers.",
+        "Evaluated technical solutions and workflow methodologies."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
       "years": [2016, 2017],
       "organization": "Cast &amp; Crew",
       "location": "Burbank, California",
       "responsibilities": [
         "Developed web applications for entertainment staffing and payroll.",
         "Acted as UI lead developer for certain products.",
-        "Reviewed code and assisted management of offsite team members.",
-        "Evaluated technical solutions and workflow methodologies."
+        "Reviewed code and assisted management of offsite team members."
       ]
     },
     {
@@ -49,9 +59,9 @@
       "organization": "Wells Fargo &amp; Company",
       "location": "Santa Monica, California",
       "responsibilities": [
-        "Developed web applications for internal usage by Capital Finance.",
+        "Developed web applications for internal usage by the Capital Finance division.",
         "Acted as UI lead developer for sprint team.",
-        "Reviewed code and assisted management of overseas team (Hyderabad).",
+        "Reviewed code and assisted management of overseas team.",
         "Worked with business analysts to formulate development goals."
       ]
     },
@@ -254,11 +264,6 @@
       "url": "http://www.linkedin.com/in/tmkeesey"
     },
     {
-      "title": "Twitter",
-      "type": "social media account",
-      "url": "https://twitter.com/tmkeesey"
-    },
-    {
       "title": "GitHub",
       "type": "code repository",
       "url": "https://github.com/keesey"
@@ -284,6 +289,11 @@
       "url": "http://namesonnodes.org/"
     },
     {
+      "title": "Keesey Comics on comiXology",
+      "type": "digital comics",
+      "url": "https://www.comixology.com/Keesey-Comics/comics-publisher/14274-0"
+    },
+    {
       "title": "<em>Art</em>",
       "type": "image collection",
       "url": "http://www.flickr.com/photos/keesey/collections/72157600607365272"
@@ -292,11 +302,6 @@
       "title": "<em>Parry &amp; Carney</em>",
       "type": "comic strip",
       "url": "http://parryandcarney.com/"
-    },
-    {
-      "title": "<em>A Three-Pound Monkey Brain</em>",
-      "type": "blog",
-      "url": "http://3lbmonkeybrain.blogspot.com/"
     }
   ]
 }
