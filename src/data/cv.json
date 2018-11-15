@@ -4,7 +4,7 @@
       "family": "Keesey",
       "given": "T. Michael"
     },
-    "tagline": "Web Application Engineer",
+    "tagline": "Software Engineer",
     "website": "http://tmkeesey.net",
     "email": "keesey@gmail.com",
     "address": {
@@ -16,7 +16,7 @@
   "skills": {
     "Languages": ["JavaScript/TypeScript", "Python", "Java", "HTML5", "XML", "PHP", "SQL"],
     "Frameworks and Libraries": ["React", "Angular", "Node.js", "d3", "jQuery", "Material UI", "Amazon Web Services"],
-    "Development Tools": ["Git", "Webpack", "Gulp", "Jasmine", "Mocha/Chai", "VSCode"],
+    "Development Tools": ["Git", "Webpack", "Gulp", "Jasmine", "Mocha/Chai"],
     "Databases": ["Postgres", "SQL Server", "MySQL"],
     "Media Tools": ["Photoshop", "Animate", "Illustrator"],
     "Additional Skills": ["Animation", "Cartooning", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "title": "Senior Software Engineer",
+      "title": "Front End Lead",
       "years": [2018],
       "organization": "ZED Connect",
       "location": "Calabasas, California",
