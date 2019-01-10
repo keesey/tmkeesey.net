@@ -99,28 +99,6 @@ section
 		}
 	}
 
-	&#skills
-	{
-		.item
-		{
-			.make-md-column(12);
-			.make-row();
-			
-			h3
-			{
-				font-size: @font-size-large;
-				margin-top: 0;
-
-				.make-md-column(3);
-			}
-			
-			ul
-			{
-				.make-md-column(9);
-			}
-		}
-	}
-	
 	&#experience
 	{
 		.item
@@ -164,6 +142,17 @@ section
 			> ul
 			{
 				.make-md-column(12);
+			}
+
+			> .technologies
+			{
+				margin-top: -0.25em;
+
+				.make-md-column(12);
+
+				> .header {
+					font-style: italic;
+				}
 			}
 		}
 	}

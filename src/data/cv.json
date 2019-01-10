@@ -13,105 +13,233 @@
     }
   },
   "objective": "Leading teams in full-stack or user interface development on interactive applications, primarily for web.",
-  "skills": {
-    "Languages": ["JavaScript/TypeScript", "Python", "Java", "HTML5", "XML", "PHP", "SQL"],
-    "Frameworks and Libraries": ["React", "Angular", "Node.js", "d3", "jQuery", "Material UI", "Amazon Web Services"],
-    "Development Tools": ["Git", "Webpack", "Gulp", "Jasmine", "Mocha/Chai"],
-    "Databases": ["PostgreSQL", "SQL Server", "MySQL"],
-    "Media Tools": ["Photoshop", "Animate", "Illustrator"],
-    "Additional Skills": ["Animation", "Cartooning", "Illustration", "Paleontology", "Project Management", "Technical Writing"]
-  },
   "experience": [
     {
-      "title": "Freelance Developer/Consultant",
-      "years": [2001, "present"],
-      "location": "Los Angeles County, California",
+      "title": "Engineer/Architect",
+      "months": [
+        "Nov 2018",
+        "present"
+      ],
+      "organization": "PhyloPic",
+      "location": "Los Angeles, CA",
       "responsibilities": [
-        "Develop websites and other interactive media.",
-        "Act as technical lead, interfacing with clients and other team members.",
-        "Architect project structure and document functional and technical specifications."
+        "Ran a successful crowd-funding campaign to engineer a new version of a popular biological illustration resource.",
+        "Architecting application structure and implementing functionality."
+      ],
+      "technologies": [
+        "Amazon Web Services (RDS, API Gateway, S3, etc.)",
+        "Django",
+        "ImageMagick",
+        "Material-UI",
+        "Mocha/Chai",
+        "Node.js",
+        "OpenAPI",
+        "PL/pgSQL",
+        "Postgres",
+        "Python",
+        "React/Redux",
+        "TypeScript"
       ]
     },
     {
       "title": "Front-End Lead",
-      "years": [2018],
+      "months": [
+        "Feb 2018",
+        "Nov 2018"
+      ],
       "organization": "ZED Connect",
-      "location": "Calabasas, California",
+      "location": "Calabasas, CA",
       "responsibilities": [
-        "Led an international front-end team in developing a React/Redux-based portal for truck fleet managers.",
+        "Led an international front-end team in developing a portal for truck fleet managers.",
         "Assisted in hiring of team members.",
         "Evaluated technical solutions and workflow methodologies."
+      ],
+      "technologies": [
+        "JavaScript",
+        "Material-UI",
+        "Mocha/Chai",
+        "React/Redux",
+        "Webpack"
       ]
     },
     {
       "title": "Senior Software Engineer",
-      "years": [2016, 2017],
+      "months": [
+        "Aug 2016",
+        "Dec 2017"
+      ],
       "organization": "Cast &amp; Crew",
-      "location": "Burbank, California",
+      "location": "Burbank, CA",
       "responsibilities": [
-        "Developed web applications (React, Aurelia) for entertainment staffing and payroll.",
+        "Developed web applications for entertainment staffing and payroll.",
         "Acted as UI lead for certain products.",
         "Reviewed code and assisted in hiring and management of team members, local and offshore."
+      ],
+      "technologies": [
+        "Aurelia",
+        "JavaScript",
+        "React",
+        "Webpack"
       ]
     },
     {
       "title": "Senior Web Developer",
-      "years": [2011, 2016],
+      "months": [
+        "Mar 2011",
+        "Aug 2016"
+      ],
       "organization": "Wells Fargo &amp; Company",
-      "location": "Santa Monica, California",
+      "location": "Santa Monica, CA",
       "responsibilities": [
-        "Developed web applications (Angular, Flex) for internal usage by the Capital Finance division.",
+        "Developed web applications for internal usage by the Capital Finance division.",
         "Acted as UI lead for team.",
         "Reviewed code and assisted in hiring and management of team members, local and offshore.",
         "Worked with business analysts to formulate development goals."
+      ],
+      "technologies": [
+        "Angular",
+        "Flex",
+        "Gulp",
+        "Jasmine",
+        "Kendo UI",
+        "SQL Server",
+        "TypeScript"
       ]
     },
     {
+      "title": "Freelance Web Developer",
+      "months": [
+        "Sep 2009",
+        "Mar 2011"
+      ],
+      "organization": "DigiSynd",
+      "location": "Burbank, CA",
+      "responsibilities": [
+        "Employed a variety of technologies, both front- and back-end, in creating social marketing applications for Disney content."
+      ],
+      "technologies": [
+        "d3",
+        "Facebook Platform",
+        "Flash/Flex",
+        "JavaScript",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "Freelance Flash Developer",
+      "months": [
+        "Jun 2009",
+        "Jul 2009"
+      ],
+      "organization": "Hello Design",
+      "location": "Culver City, CA"
+    },
+    {
+      "title": "Freelance Flex Lead",
+      "months": [
+        "Jan 2009",
+        "Jun 2009"
+      ],
+      "organization": "McManus Consulting",
+      "location": "Glendale, CA (remote)",
+      "responsibilities": [
+        "Worked on the user interface for an application to be used by hospitals."
+      ],
+      "technologies": [
+        "Crystal Reports",
+        "Flex"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "months": [
+        "Oct 2008",
+        "Jan 2009"
+      ],
+      "organization": "Ignited Minds",
+      "location": "El Segundo, CA"
+    },
+    {
       "title": "Director of Technology",
-      "years": [2006, 2008],
+      "months": [
+        "May 2006",
+        "Aug 2008"
+      ],
       "organization": "Exopolis",
-      "location": "Los Angeles, California",
+      "location": "Los Angeles, CA",
       "responsibilities": [
         "Headed the technology department for a boutique advertising agency.",
         "Reorganized development workflow, implementing code frameworks, version control, QA, and documentation processes.",
         "Oversaw hiring of employees, part-time and full-time.",
         "Acted as technical lead, developer, and information architect."
+      ],
+      "technologies": [
+        "Flash/Flex",
+        "JavaScript",
+        "MySQL",
+        "PHP"
       ]
     },
     {
-        "title": "Paleo Technician",
-        "years": [2004],
-        "organization": "Wyoming Dinosaur Center",
-        "location": "Thermopolis, Wyoming",
-        "responsibilities": [
-          "Led customers on fossil digs and museum and site tours.",
-          "Worked on museum exhibits, including display design.",
-          "Engaged in fossil preparation and molding/casting."
-        ]
+      "title": "Freelance Developer",
+      "months": [
+        "Sep 2004",
+        "Apr 2006"
+      ],
+      "location": "Los Angeles, CA",
+      "responsibilities": [
+        "Did freelance web development (primarily Flash) for several clients, including BIG Interactive and Exopolis."
+      ]
+    },
+    {
+      "title": "Paleo Technician",
+      "months": [
+        "May 2004",
+        "Sep 2004"
+      ],
+      "organization": "Wyoming Dinosaur Center",
+      "location": "Thermopolis, WY",
+      "responsibilities": [
+        "Led customers on fossil digs and museum and site tours.",
+        "Worked on museum exhibits, including display design.",
+        "Engaged in fossil preparation and molding/casting."
+      ]
     },
     {
       "title": "Technical Director",
-      "years": [2001, 2003],
+      "months": [
+        "Mar 2001",
+        "Oct 2003"
+      ],
       "organization": "Media Revolution",
-      "location": "Santa Monica/Culver City, California"
+      "location": "Santa Monica/Culver City, CA"
     },
     {
       "title": "Flash Developer",
-      "years": [2000, 2001],
+      "months": [
+        "Sep 2000",
+        "Jan 2001"
+      ],
       "organization": "Distant Corners Entertainment Group",
-      "location": "Los Angeles, California"
+      "location": "Los Angeles, CA"
     },
     {
       "title": "Artist",
-      "years": [1999, 2000],
+      "months": [
+        "Jul 1999",
+        "Aug 2000"
+      ],
       "organization": "Vir2l Studios/ZeniMax Media",
-      "location": "Rockville, Maryland/Culver City, California"
+      "location": "Rockville, MD/Culver City, CA"
     },
     {
       "title": "Animation Captain/Programming Counselor",
-      "years": [1995, 1998],
+      "months": [
+        "Summers 1995",
+        1998
+      ],
       "organization": "TIC Computer Camp",
-      "location": "Washington, D.C."
+      "location": "Washington, DC"
     }
   ],
   "samples": [
@@ -158,7 +286,29 @@
           "url": "http://phylopic.org/api/"
         }
       ],
-      "technologies": ["Knockout", "jQuery", "TypeScript", "HTML5", "CSS", "SVG", "Bootstrap", "Django", "Python", "ImageMagick", "Inkscape", "Postgres", "PL/pgSQL", "UNIX shell scripts"]
+      "technologies": [
+        "Amazon Web Services",
+        "Bootstrap*",
+        "Chai",
+        "Django*",
+        "HTML5",
+        "ImageMagick",
+        "Inkscape",
+        "jQuery*",
+        "Knockout*",
+        "Material-UI",
+        "Mocha",
+        "Node.js",
+        "OpenAPI",
+        "PL/pgSQL",
+        "Postgres",
+        "Python*",
+        "React",
+        "Redux",
+        "SVG",
+        "TypeScript",
+        "UNIX shell scripts"
+      ]
     },
     {
       "name": "Paleocene",
@@ -171,7 +321,18 @@
           "url": "http://paleocene-comic.com/"
         }
       ],
-      "technologies": ["JavaScript (“vanilla”)", "Hammer.JS", "gulp", "npm", "Bower", "HTML5", "CSS", "SVG", "ImageMagick", "Inkscape"]
+      "technologies": [
+        "JavaScript (“vanilla”)",
+        "Hammer.JS",
+        "gulp",
+        "npm",
+        "Bower",
+        "HTML5",
+        "CSS",
+        "SVG",
+        "ImageMagick",
+        "Inkscape"
+      ]
     },
     {
       "name": "Names on Nodes",
@@ -204,7 +365,29 @@
           "url": "http://dx.doi.org/10.1111/j.1463-6409.2007.00302.x"
         }
       ],
-      "technologies": ["ActionScript", "Blaze DS*", "DOT", "e4x", "Flash Builder", "Flare*", "Flex", "FlexUnit", "GraphML", "Hibernate*", "HTML5", "Java", "JavaScript", "JBoss*", "MathML", "MXML", "NexML", "Nexus", "PL/pgSQL*", "Postgres*", "Schema*"],
+      "technologies": [
+        "ActionScript",
+        "Blaze DS*",
+        "DOT",
+        "e4x",
+        "Flash Builder",
+        "Flare*",
+        "Flex",
+        "FlexUnit",
+        "GraphML",
+        "Hibernate*",
+        "HTML5",
+        "Java",
+        "JavaScript",
+        "JBoss*",
+        "MathML",
+        "MXML",
+        "NexML",
+        "Nexus",
+        "PL/pgSQL*",
+        "Postgres*",
+        "Schema*"
+      ],
       "footnote": "Used in an earlier version or a dormant or extra sub-project."
     }
   ],
@@ -226,7 +409,10 @@
       "journal": "Zoologica Scripta",
       "volume": 36,
       "issue": 6,
-      "pages": [607, 621],
+      "pages": [
+        607,
+        621
+      ],
       "doi": "10.1111/j.1463-6409.2007.00302.x"
     },
     {
@@ -235,7 +421,10 @@
       "title": "Macroevolutionary trends in the Dinosauria: Cope's rule",
       "journal": "Journal of Evolutionary Biology",
       "volume": 18,
-      "pages": [587, 595],
+      "pages": [
+        587,
+        595
+      ],
       "doi": "10.1111/j.1420-9101.2004.00870.x"
     }
   ],

@@ -51,21 +51,6 @@
 					<p>${ objective }</p>
 				</div>
 			</section>
-			<section id="skills">
-				<h2>Skill Set</h2>
-				<div class="content">
-					<% for (var item in skills) { %>
-					<div class="item">
-						<h3>${ item }</h3>
-						<ul class="list-inline">
-							<% _.forEach(skills[item], function(skill) { %>
-							<li class="skill">${ skill }</li>
-							<% }); %>
-						</ul>
-					</div>
-					<% } %>
-				</div>
-			</section>
 			<section id="experience">
 				<h2>Work Experience</h2>
 				<div class="content">
@@ -79,13 +64,20 @@
 							<span class="title no-organization">${ item.title }</span>
 							<% } %>
 							<span class="location">${ item.location }</span>
-							<span class="years">${ item.years.join('–') }</span>
+							<span class="months">${ item.months.join('–') }</span>
 						</div>
-						<ul class="responsibilities list-unstyled">
+						<% if (item.responsibilities) { %>
+							<ul class="responsibilities list-unstyled">
 							<% _.forEach(item.responsibilities, function(responsibility) { %>
 							<li>${ responsibility }</li>
 							<% }); %>
 						</ul>
+						<% } %>
+						<% if (item.technologies) { %>
+						<div class="technologies">
+							<span class="header">Technologies</span>: <% _.forEach(item.technologies, function(technology, index) { %><% if (index) { %>, <% }%>${ technology }<% }); %>
+						</div>
+						<% } %>
 					</div>
 					<% }); %>
 				</div>
