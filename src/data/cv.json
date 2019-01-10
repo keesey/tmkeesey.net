@@ -27,7 +27,7 @@
         "Architecting application structure and implementing functionality."
       ],
       "technologies": [
-        "Amazon Web Services (RDS, API Gateway, S3, etc.)",
+        "Amazon Web Services",
         "Django",
         "ImageMagick",
         "Material-UI",

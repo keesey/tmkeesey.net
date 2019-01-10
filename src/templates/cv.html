@@ -74,8 +74,14 @@
 						</ul>
 						<% } %>
 						<% if (item.technologies) { %>
-						<div class="technologies">
-							<span class="header">Technologies</span>: <% _.forEach(item.technologies, function(technology, index) { %><% if (index) { %>, <% }%>${ technology }<% }); %>
+						<div class="technologies-section">
+							<strong>Technologies Used</strong>
+							&emsp;
+							<ul class="technologies list-inline" style="display: inline">
+								<% _.forEach(item.technologies, function(technology) { %>
+								<li>${ technology }</li>
+								<% }); %>
+							</ul>
 						</div>
 						<% } %>
 					</div>
