@@ -1,22 +1,9 @@
 {
-  "name": "tmkeesey.net",
-  "version": "0.0.0",
-  "description": "Personal website of Timothy Michael Keesey",
-  "main": "app/index.html",
-  "scripts": {
-    "test": "gulp test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/keesey/tmkeesey.net"
-  },
   "author": "T. Michael Keesey <keesey@gmail.com>",
-  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/keesey/tmkeesey.net/issues"
   },
-  "homepage": "http://tmkeesey.net/",
-  "private": true,
+  "description": "Personal website of Timothy Michael Keesey",
   "devDependencies": {
     "gulp": "~3.9.0",
     "gulp-minify-html": "~1.0.4",
@@ -28,5 +15,19 @@
     "gulp-less": "~3.0.3",
     "gulp-minify-css": "~1.2.1",
     "gulp-data": "~1.2.0"
-  }
+  },
+  "homepage": "http://tmkeesey.net/",
+  "license": "UNLICENSED",
+  "main": "app/index.html",
+  "name": "tmkeesey.net",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keesey/tmkeesey.net"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp serve"
+  },
+  "version": "0.0.1"
 }

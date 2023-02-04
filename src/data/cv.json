@@ -12,32 +12,60 @@
       "region": "California"
     }
   },
-  "objective": "Software engineer specializing in web applications, with particular emphasis in front-end development.",
+  "objective": "Lead software engineer specializing in web applications, with particular emphasis in front-end development.",
   "experience": [
     {
-      "title": "Engineer/Architect",
+      "title": "Lead Software Engineer",
       "months": [
-        "Nov 2018",
+        "Feb 2019",
+        "present"
+      ],
+      "organization": "Live Nation Entertainment",
+      "location": "Beverly Hills, CA",
+      "responsibilities": [
+        "Leading a team of front-end web engineers",
+        "Communicating closely with Product, QA, other engineering team leads, and other teams.",
+        "Built a completely new version of LiveNation.com.",
+        "Maintaining LiveNation.com after launch, adding major new functionality.",
+        "Conducting interviews for hiring team members.",
+        "Working on additional websites"
+      ],
+      "technologies": [
+        "Amazon Web Services",
+        "GraphQL",
+        "Jest",
+        "Next.js",
+        "OpenAPI",
+        "React",
+        "Storybook",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Engineer/Architect/Founder",
+      "months": [
+        "Feb 2011",
         "present"
       ],
       "organization": "PhyloPic",
       "location": "Los Angeles, CA",
       "responsibilities": [
-        "Ran a successful crowd-funding campaign to engineer a new version of a popular biological illustration resource.",
+        "Built a popular biological illustration resource, used by thousands of research articles.",
+        "Ran a successful crowd-funding campaign to engineer a new version in 2018.",
         "Architecting application structure and implementing functionality."
       ],
       "technologies": [
         "Amazon Web Services",
-        "Django",
-        "ImageMagick",
-        "Material-UI",
+        "Image Magick",
+        "Inkscape",
         "Mocha/Chai",
+        "Next.js",
         "Node.js",
         "OpenAPI",
-        "PL/pgSQL",
         "Postgres",
-        "Python",
-        "React/Redux",
+        "React",
+        "Serverless",
+        "SQL",
         "TypeScript"
       ]
     },
@@ -50,7 +78,7 @@
       "organization": "ZED Connect",
       "location": "Calabasas, CA",
       "responsibilities": [
-        "Led an international front-end team in developing a portal for truck fleet managers.",
+        "Led a front-end team in developing a portal for truck fleet managers.",
         "Assisted in hiring of team members.",
         "Evaluated technical solutions and workflow methodologies."
       ],
@@ -242,156 +270,80 @@
       "location": "Washington, DC"
     }
   ],
-  "samples": [
-    {
-      "language": "TypeScript",
-      "project": {
-        "name": "Haeckel",
-        "url": "https://github.com/keesey/Haeckel/"
-      },
-      "code": {
-        "name": "Haeckel.DAGSolver",
-        "url": "https://github.com/keesey/Haeckel/blob/master/src/lib/solvers/DAGSolver.ts"
-      }
-    },
-    {
-      "language": "Python",
-      "project": {
-        "name": "PyMathema",
-        "url": "https://bitbucket.org/keesey/pymathema/"
-      },
-      "code": {
-        "name": "pymathema.evaluation",
-        "url": "https://bitbucket.org/keesey/pymathema/src/be12d64fcf4c/src/pymathema/evaluation.py"
-      }
-    }
-  ],
   "projects": [
     {
       "name": "PhyloPic",
       "type": "Website",
-      "url": "http://phylopic.org/",
-      "description": "<em>PhyloPic</em> is a website with freely reusable silhouette images of animals, plants, and other life forms. Images can be searched for taxonomically, so that close approximations can be found for unillustrated groups. A public API is provided (and used by the site itself).",
+      "url": "https://www.phylopic.org/",
+      "description": "<em>PhyloPic</em> is a website with freely reusable silhouette images of animals, plants, and other life forms, with phylogeny-based search functionality. A public RESTful API is provided.",
       "components": [
         {
           "name": "Website",
-          "url": "http://phylopic.org/"
+          "url": "https://www.phylopic.org/"
         },
         {
-          "name": "Source Code",
-          "url": "http://phylopic.org/repository/"
+          "name": "Contribution Website",
+          "url": "https://contribute.phylopic.org/"
+        },
+        {
+          "name": "Source Monorepo",
+          "url": "https://github.com/keesey/phylopic"
         },
         {
           "name": "API Documentation",
-          "url": "http://phylopic.org/api/"
+          "url": "http://api-docs.phylopic.org/"
         }
       ],
       "technologies": [
         "Amazon Web Services",
-        "Bootstrap*",
-        "Chai",
-        "Django*",
-        "HTML5",
-        "ImageMagick",
+        "Image Magick",
         "Inkscape",
-        "jQuery*",
-        "Knockout*",
-        "Material-UI",
-        "Mocha",
+        "Mocha/Chai",
+        "Next.js",
         "Node.js",
         "OpenAPI",
-        "PL/pgSQL",
         "Postgres",
-        "Python*",
         "React",
-        "Redux",
-        "SVG",
-        "TypeScript",
-        "UNIX shell scripts"
+        "Serverless",
+        "SQL",
+        "TypeScript"
       ]
     },
     {
-      "name": "Paleocene",
-      "type": "Comic Book/Website",
-      "url": "http://paleocene-comic.com/",
-      "description": "<em>Paleocene</em>  is a comic book set shortly after the great extinction that ended the “Age of Reptiles”.",
+      "name": "Paleocene (Keesey Comics)",
+      "type": "Comic Book and Website",
+      "url": "https://www.keesey-comics.com/paleocene",
+      "description": "<em>Paleocene</em> is a comic book set shortly after the great extinction that ended the “Age of Reptiles”.",
       "components": [
         {
           "name": "Website",
-          "url": "http://paleocene-comic.com/"
+          "url": "https://www.keesey-comics.com/paleocene"
+        },
+        {
+          "name": "Online Store",
+          "url": "https://www.keesey-comics.com/store"
         }
       ],
       "technologies": [
-        "JavaScript (“vanilla”)",
-        "Hammer.JS",
-        "gulp",
-        "npm",
-        "Bower",
-        "HTML5",
-        "CSS",
-        "SVG",
-        "ImageMagick",
-        "Inkscape"
+        "Next.js",
+        "PayPal services",
+        "React"
       ]
-    },
-    {
-      "name": "Names on Nodes",
-      "type": "Mathematical Methodology/Rich Internet Application",
-      "url": "http://namesonnodes.org/",
-      "description": "<em>Names on Nodes</em> is a project with the goal of automating biological nomenclature. This involves two core aspects:<ol><li>The storage of scientific names and their definitions as MathML.</li><li>The automated application of names to scientific hypotheses.</li></ol>",
-      "components": [
-        {
-          "name": "Interactive Application",
-          "url": "http://namesonnodes.org/app/"
-        },
-        {
-          "name": "Source Code",
-          "url": "http://bitbucket.org/keesey/namesonnodes-sa/"
-        },
-        {
-          "name": "Definitions Document",
-          "url": "http://namesonnodes.org/ns/math/2009/"
-        },
-        {
-          "name": "HTML5 Canvas Renderer",
-          "url": "http://namesonnodes.org/phylopainter/"
-        },
-        {
-          "name": "Java Toolkit",
-          "url": "http://bitbucket.org/keesey/namesonnodes_java/"
-        },
-        {
-          "name": "Research Publication",
-          "url": "http://dx.doi.org/10.1111/j.1463-6409.2007.00302.x"
-        }
-      ],
-      "technologies": [
-        "ActionScript",
-        "Blaze DS*",
-        "DOT",
-        "e4x",
-        "Flash Builder",
-        "Flare*",
-        "Flex",
-        "FlexUnit",
-        "GraphML",
-        "Hibernate*",
-        "HTML5",
-        "Java",
-        "JavaScript",
-        "JBoss*",
-        "MathML",
-        "MXML",
-        "NexML",
-        "Nexus",
-        "PL/pgSQL*",
-        "Postgres*",
-        "Schema*"
-      ],
-      "footnote": "Used in an earlier version or a dormant or extra sub-project."
     }
   ],
   "publications": [
+    {
+      "authors": "Iriarte, J., M. J. Ziegler, A. K. Outram, M. Robinson, P. Roberts, F. J. Aceituno, G. Morcote-Ríos &amp; T. M. Keesey",
+      "year": 2022,
+      "title": "Ice Age megafauna rock art in the Colombian Amazon?",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "volume": 377,
+      "issue": 1849,
+      "pages": [
+        20200496
+      ],
+      "doi": "10.1098/rstb.2020.0496"
+    },
     {
       "authors": "Kane, J., E. Willoughby &amp; T. M. Keesey",
       "year": 2016,
@@ -433,11 +385,6 @@
       "name": "International Society for Phylogenetic Nomenclature",
       "title": "Webmaster",
       "url": "http://phylonames.org/"
-    },
-    {
-      "name": "Society of Vertebrate Paleontology",
-      "title": "Member",
-      "url": "http://vertpaleo.org/"
     }
   ],
   "education": [
@@ -460,39 +407,19 @@
       "url": "https://github.com/keesey"
     },
     {
-      "title": "BitBucket",
-      "type": "code repository",
-      "url": "https://bitbucket.org/keesey/"
-    },
-    {
       "title": "<em>PhyloPic</em>",
       "type": "website",
-      "url": "http://phylopic.org/"
+      "url": "https://www.phylopic.org/"
     },
     {
-      "title": "<em>Paleocene</em>",
-      "type": "comic book/website",
-      "url": "http://paleocene-comic.com/"
-    },
-    {
-      "title": "<em>Names on Nodes</em>",
-      "type": "website",
-      "url": "http://namesonnodes.org/"
-    },
-    {
-      "title": "Keesey Comics on comiXology",
-      "type": "digital comics",
-      "url": "https://www.comixology.com/Keesey-Comics/comics-publisher/14274-0"
+      "title": "Keesey Comics",
+      "type": "comic books",
+      "url": "https://www.keesey-comics.com/"
     },
     {
       "title": "<em>Art</em>",
       "type": "image collection",
       "url": "http://www.flickr.com/photos/keesey/collections/72157600607365272"
-    },
-    {
-      "title": "<em>Parry &amp; Carney</em>",
-      "type": "comic strip",
-      "url": "http://parryandcarney.com/"
     }
   ]
 }

@@ -88,33 +88,6 @@
 					<% }); %>
 				</div>
 			</section>
-			<section id="samples">
-				<h2>Code Samples</h2>
-				<div class="table-responsive">
-					<table class="table">
-						<tr>
-							<th>Language</th>
-							<th>Project</th>
-							<th>Sample</th>
-						</tr>
-						<% _.forEach(samples, function(item) { %>
-						<tr class="item">
-							<td class="language">${ item.language }</td>
-							<td class="project">
-								<a href="${ item.project.url }">
-									<em>${ item.project.name }</em>
-								</a>
-							</td>
-							<td class="code">
-								<a href="${ item.code.url }">
-									<em>${ item.code.name }</em>
-								</a>
-							</td>
-						</tr>
-						<% }); %>
-					</table>
-				</div>
-			</section>
 			<section id="projects">
 				<h2>Projects</h2>
 				<div>
