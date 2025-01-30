@@ -4,7 +4,7 @@
       "family": "Keesey",
       "given": "T. Michael"
     },
-    "tagline": "Senior Software Engineer/Technical Lead",
+    "tagline": "Lead Software Engineer",
     "website": "http://tmkeesey.net",
     "email": "keesey@gmail.com",
     "address": {
@@ -12,7 +12,7 @@
       "region": "California"
     }
   },
-  "objective": "Lead software engineer specializing in web applications, with particular emphasis in front-end development.",
+  "objective": "Web applications, with particular emphasis on front-end development.",
   "experience": [
     {
       "title": "Lead Software Engineer",
@@ -25,15 +25,16 @@
       "responsibilities": [
         "Leading a team of front-end web engineers",
         "Communicating closely with Product, QA, other engineering team leads, and other teams.",
-        "Built a completely new version of LiveNation.com.",
+        "Building a completely new version of LiveNation.com, and an extensive redesign.",
         "Maintaining LiveNation.com after launch, adding major new functionality.",
-        "Conducting interviews for hiring team members.",
-        "Working on additional websites"
+        "Building and maintaining a multi-tenant web application for venue websites.",
+        "Conducting interviews for hiring team members."
       ],
       "technologies": [
         "Amazon Web Services",
+        "Chakra UI",
+        "Git",
         "GraphQL",
-        "Jest",
         "Next.js",
         "OpenAPI",
         "React",
@@ -50,15 +51,14 @@
       "organization": "PhyloPic",
       "location": "Los Angeles, CA",
       "responsibilities": [
-        "Built a popular biological illustration resource, used by thousands of research articles.",
-        "Ran a successful crowd-funding campaign to engineer a new version in 2018.",
+        "Building a popular biological illustration resource, used by thousands of research articles.",
+        "Running a successful crowd-funding campaign to engineer a new version (2018).",
         "Architecting application structure and implementing functionality."
       ],
       "technologies": [
         "Amazon Web Services",
         "Image Magick",
         "Inkscape",
-        "Mocha/Chai",
         "Next.js",
         "Node.js",
         "OpenAPI",
@@ -396,6 +396,11 @@
     }
   ],
   "links": [
+    {
+      "title": "BlueSky",
+      "type": "social media account",
+      "url": "https://bsky.app/profile/tmkeesey.bsky.social"
+    },
     {
       "title": "LinkedIn",
       "type": "social media account",
