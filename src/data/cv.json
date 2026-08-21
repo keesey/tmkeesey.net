@@ -4,8 +4,8 @@
       "family": "Keesey",
       "given": "T. Michael"
     },
-    "tagline": "Lead Software Engineer",
-    "website": "http://tmkeesey.net",
+    "tagline": "Principal Software Engineer",
+    "website": "http://www.tmkeesey.net",
     "email": "keesey@gmail.com",
     "address": {
       "locality": "Los Angeles",
@@ -15,7 +15,7 @@
   "objective": "Web applications, with particular emphasis on front-end development.",
   "experience": [
     {
-      "title": "Lead Software Engineer",
+      "title": "Principal Software Engineer",
       "months": [
         "Feb 2019",
         "present"
