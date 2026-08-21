@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}

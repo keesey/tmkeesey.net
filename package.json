@@ -1,33 +1,34 @@
 {
-  "author": "T. Michael Keesey <keesey@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/keesey/tmkeesey.net/issues"
-  },
-  "description": "Personal website of Timothy Michael Keesey",
-  "devDependencies": {
-    "gulp": "~3.9.0",
-    "gulp-minify-html": "~1.0.4",
-    "gulp-rename": "~1.2.2",
-    "gulp-template": "~3.0.0",
-    "gulp-watch": "~4.3.5",
-    "gulp-webserver": "~0.9.1",
-    "bootstrap": "~3.3.5",
-    "gulp-less": "~3.0.3",
-    "gulp-minify-css": "~1.2.1",
-    "gulp-data": "~1.2.0"
-  },
-  "homepage": "http://tmkeesey.net/",
-  "license": "UNLICENSED",
-  "main": "app/index.html",
   "name": "tmkeesey.net",
+  "version": "1.0.0",
   "private": true,
+  "description": "Personal website of Timothy Michael Keesey",
+  "author": "T. Michael Keesey <keesey@gmail.com>",
+  "license": "UNLICENSED",
+  "homepage": "https://tmkeesey.net/",
   "repository": {
     "type": "git",
     "url": "https://github.com/keesey/tmkeesey.net"
   },
-  "scripts": {
-    "build": "gulp build",
-    "start": "gulp serve"
+  "bugs": {
+    "url": "https://github.com/keesey/tmkeesey.net/issues"
   },
-  "version": "0.0.1"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
 }
