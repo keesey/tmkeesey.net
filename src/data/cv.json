@@ -123,15 +123,6 @@
         "Acted as UI lead for team.",
         "Reviewed code and assisted in hiring and management of team members, local and offshore.",
         "Worked with business analysts to formulate development goals."
-      ],
-      "technologies": [
-        "Angular",
-        "Flex",
-        "Gulp",
-        "Jasmine",
-        "Kendo UI",
-        "SQL Server",
-        "TypeScript"
       ]
     },
     {
@@ -144,13 +135,6 @@
       "location": "Burbank, CA",
       "responsibilities": [
         "Employed a variety of technologies, both front- and back-end, in creating social marketing applications for Disney content."
-      ],
-      "technologies": [
-        "d3",
-        "Facebook Platform",
-        "Flash/Flex",
-        "JavaScript",
-        "MySQL"
       ]
     },
     {
@@ -172,10 +156,6 @@
       "location": "Glendale, CA (remote)",
       "responsibilities": [
         "Worked on the user interface for an application to be used by hospitals."
-      ],
-      "technologies": [
-        "Crystal Reports",
-        "Flex"
       ]
     },
     {
@@ -200,12 +180,6 @@
         "Reorganized development workflow, implementing code frameworks, version control, QA, and documentation processes.",
         "Oversaw hiring of employees, part-time and full-time.",
         "Acted as technical lead, developer, and information architect."
-      ],
-      "technologies": [
-        "Flash/Flex",
-        "JavaScript",
-        "MySQL",
-        "PHP"
       ]
     },
     {
@@ -327,7 +301,8 @@
       "technologies": [
         "Next.js",
         "PayPal services",
-        "React"
+        "React",
+        "Tailwind"
       ]
     }
   ],
