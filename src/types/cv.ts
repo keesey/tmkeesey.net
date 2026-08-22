@@ -37,9 +37,9 @@ export interface Project {
 }
 
 export interface Publication {
-  authors: string;
-  year: number;
-  title: string;
+  authors?: string;
+  year?: number;
+  title?: string;
   journal?: string;
   volume?: number;
   issue?: number;
@@ -50,6 +50,7 @@ export interface Publication {
   isbn10?: string;
   isbn13?: string;
   asin?: string;
+  in?: Publication;
 }
 
 export interface Society {

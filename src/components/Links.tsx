@@ -16,9 +16,7 @@ export function Links({ items }: LinksProps) {
           >
             <HtmlContent html={item.title} />
           </a>{" "}
-          {item.type && (
-            <span className="text-stone-500">({item.type})</span>
-          )}
+          {item.type && <span className="text-stone-500">({item.type})</span>}
         </li>
       ))}
     </ul>

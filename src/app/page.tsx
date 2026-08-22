@@ -23,7 +23,9 @@ export default function Home() {
       </Section>
 
       <Section id="objective" title="Expertise">
-        <p className="text-lg leading-relaxed text-stone-700">{data.objective}</p>
+        <p className="text-lg leading-relaxed text-stone-700">
+          {data.objective}
+        </p>
       </Section>
 
       <Section id="experience" title="Work Experience">

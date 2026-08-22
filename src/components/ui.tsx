@@ -11,6 +11,10 @@ export function HtmlContent({
   as: Tag = "span",
   className,
 }: HtmlContentProps) {
+  if (!html) {
+    return null;
+  }
+
   return (
     <Tag className={className} dangerouslySetInnerHTML={{ __html: html }} />
   );

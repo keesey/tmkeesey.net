@@ -16,10 +16,7 @@
   "experience": [
     {
       "title": "Principal Software Engineer",
-      "months": [
-        "Feb 2019",
-        "present"
-      ],
+      "months": ["Feb 2019", "present"],
       "organization": "Live Nation Entertainment",
       "location": "Beverly Hills, CA",
       "responsibilities": [
@@ -43,38 +40,8 @@
       ]
     },
     {
-      "title": "Engineer/Architect/Founder",
-      "months": [
-        "Feb 2011",
-        "present"
-      ],
-      "organization": "PhyloPic",
-      "location": "Los Angeles, CA",
-      "responsibilities": [
-        "Building a popular biological illustration resource, used by thousands of research articles.",
-        "Running a successful crowd-funding campaign to engineer a new version (2018).",
-        "Architecting application structure and implementing functionality."
-      ],
-      "technologies": [
-        "Amazon Web Services",
-        "Image Magick",
-        "Inkscape",
-        "Next.js",
-        "Node.js",
-        "OpenAPI",
-        "Postgres",
-        "React",
-        "Serverless",
-        "SQL",
-        "TypeScript"
-      ]
-    },
-    {
       "title": "Front-End Lead",
-      "months": [
-        "Feb 2018",
-        "Nov 2018"
-      ],
+      "months": ["Feb 2018", "Nov 2018"],
       "organization": "ZED Connect",
       "location": "Calabasas, CA",
       "responsibilities": [
@@ -92,10 +59,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "months": [
-        "Aug 2016",
-        "Dec 2017"
-      ],
+      "months": ["Aug 2016", "Dec 2017"],
       "organization": "Cast &amp; Crew",
       "location": "Burbank, CA",
       "responsibilities": [
@@ -103,19 +67,11 @@
         "Acted as UI lead for certain products.",
         "Reviewed code and assisted in hiring and management of team members, local and offshore."
       ],
-      "technologies": [
-        "Aurelia",
-        "JavaScript",
-        "React",
-        "Webpack"
-      ]
+      "technologies": ["Aurelia", "JavaScript", "React", "Webpack"]
     },
     {
       "title": "Senior Web Developer",
-      "months": [
-        "Mar 2011",
-        "Aug 2016"
-      ],
+      "months": ["Mar 2011", "Aug 2016"],
       "organization": "Wells Fargo &amp; Company",
       "location": "Santa Monica, CA",
       "responsibilities": [
@@ -127,10 +83,7 @@
     },
     {
       "title": "Freelance Web Developer",
-      "months": [
-        "Sep 2009",
-        "Mar 2011"
-      ],
+      "months": ["Sep 2009", "Mar 2011"],
       "organization": "DigiSynd",
       "location": "Burbank, CA",
       "responsibilities": [
@@ -138,20 +91,8 @@
       ]
     },
     {
-      "title": "Freelance Flash Developer",
-      "months": [
-        "Jun 2009",
-        "Jul 2009"
-      ],
-      "organization": "Hello Design",
-      "location": "Culver City, CA"
-    },
-    {
       "title": "Freelance Flex Lead",
-      "months": [
-        "Jan 2009",
-        "Jun 2009"
-      ],
+      "months": ["Jan 2009", "Jun 2009"],
       "organization": "McManus Consulting",
       "location": "Glendale, CA (remote)",
       "responsibilities": [
@@ -160,19 +101,13 @@
     },
     {
       "title": "Freelance Developer",
-      "months": [
-        "Oct 2008",
-        "Jan 2009"
-      ],
+      "months": ["Oct 2008", "Jan 2009"],
       "organization": "Ignited Minds",
       "location": "El Segundo, CA"
     },
     {
       "title": "Director of Technology",
-      "months": [
-        "May 2006",
-        "Aug 2008"
-      ],
+      "months": ["May 2006", "Aug 2008"],
       "organization": "Exopolis",
       "location": "Los Angeles, CA",
       "responsibilities": [
@@ -184,10 +119,7 @@
     },
     {
       "title": "Freelance Developer",
-      "months": [
-        "Sep 2004",
-        "Apr 2006"
-      ],
+      "months": ["Sep 2004", "Apr 2006"],
       "location": "Los Angeles, CA",
       "responsibilities": [
         "Did freelance web development (primarily Flash) for several clients, including BIG Interactive and Exopolis."
@@ -195,10 +127,7 @@
     },
     {
       "title": "Paleo Technician",
-      "months": [
-        "May 2004",
-        "Sep 2004"
-      ],
+      "months": ["May 2004", "Sep 2004"],
       "organization": "Wyoming Dinosaur Center",
       "location": "Thermopolis, WY",
       "responsibilities": [
@@ -209,37 +138,25 @@
     },
     {
       "title": "Technical Director",
-      "months": [
-        "Mar 2001",
-        "Oct 2003"
-      ],
+      "months": ["Mar 2001", "Oct 2003"],
       "organization": "Media Revolution",
       "location": "Santa Monica/Culver City, CA"
     },
     {
       "title": "Flash Developer",
-      "months": [
-        "Sep 2000",
-        "Jan 2001"
-      ],
+      "months": ["Sep 2000", "Jan 2001"],
       "organization": "Distant Corners Entertainment Group",
       "location": "Los Angeles, CA"
     },
     {
       "title": "Artist",
-      "months": [
-        "Jul 1999",
-        "Aug 2000"
-      ],
+      "months": ["Jul 1999", "Aug 2000"],
       "organization": "Vir2l Studios/ZeniMax Media",
       "location": "Rockville, MD/Culver City, CA"
     },
     {
       "title": "Animation Captain/Programming Counselor",
-      "months": [
-        "Summers 1995",
-        1998
-      ],
+      "months": ["Summers 1995", 1998],
       "organization": "TIC Computer Camp",
       "location": "Washington, DC"
     }
@@ -298,12 +215,7 @@
           "url": "https://www.keesey-comics.com/store"
         }
       ],
-      "technologies": [
-        "Next.js",
-        "PayPal services",
-        "React",
-        "Tailwind"
-      ]
+      "technologies": ["Next.js", "PayPal services", "React", "Tailwind"]
     }
   ],
   "publications": [
@@ -314,20 +226,22 @@
       "journal": "Philosophical Transactions of the Royal Society B",
       "volume": 377,
       "issue": 1849,
-      "pages": [
-        20200496
-      ],
+      "pages": [20200496],
       "doi": "10.1098/rstb.2020.0496"
     },
     {
-      "authors": "Kane, J., E. Willoughby &amp; T. M. Keesey",
+      "authors": "Keesey, T. M.",
       "year": 2016,
-      "title": "God's Word or Human Reason?: An Inside Perspective on Creationism",
-      "publisher": "Inkwater Press",
-      "pageCount": 424,
-      "isbn10": "1629013722",
-      "isbn13": "978-1629013725",
-      "asin": "1629013722"
+      "title": "Three Histories of the Human Body",
+      "pages": [192, 264],
+      "in": {
+        "title": "God's Word or Human Reason?: An Inside Perspective on Creationism",
+        "publisher": "Inkwater Press",
+        "pageCount": 424,
+        "isbn10": "1629013722",
+        "isbn13": "978-1629013725",
+        "asin": "1629013722"
+      }
     },
     {
       "authors": "Keesey, T. M.",
@@ -336,10 +250,7 @@
       "journal": "Zoologica Scripta",
       "volume": 36,
       "issue": 6,
-      "pages": [
-        607,
-        621
-      ],
+      "pages": [607, 621],
       "doi": "10.1111/j.1463-6409.2007.00302.x"
     },
     {
@@ -348,10 +259,7 @@
       "title": "Macroevolutionary trends in the Dinosauria: Cope's rule",
       "journal": "Journal of Evolutionary Biology",
       "volume": 18,
-      "pages": [
-        587,
-        595
-      ],
+      "pages": [587, 595],
       "doi": "10.1111/j.1420-9101.2004.00870.x"
     }
   ],
